@@ -1,0 +1,30 @@
+[core]
+	excludesfile = ~/.gitignore
+	editor = nvim
+[include]
+  path = ~/.gitconfig.local
+[push]
+  default = simple
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+  ui = auto
+[alias]
+  a = add --all
+  cam = commit -am
+  st = status
+  open = "!hub browse"
+[hub]
+  protocol = https
+[github]
+	user = ismateri
+[diff]
+  tool = nvimdiff
+[difftool "nvimdiff"]
+	cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
+	path = 
+[ghq]
+  root = ~/ghq

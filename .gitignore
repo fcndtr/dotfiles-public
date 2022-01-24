@@ -1,0 +1,75 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files #
+###################
+*.swp
+*.swo
+*~
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Editor files #
+################
+.vscode
+
+# Fish local config #
+################
+.config/fish/fish_variables
+.config/fish/fish_history
+
+# Extra #
+################
+*.o
+\#*#
+*#
+.#*
+.*~
+*~
+.DS_Store
+*.sw[po]
+tags
+TAGS
+.svn
+*.dSYM
+*.log
+*.dvi
+*.aux
+*.elc
+.zshrc.local
+.python-version
+samples
+.netrwhist
+./config/nvim/.netrwhist
+.bundle
+/vendor/bundle
+Gemfile.lock
+node_modules
+bower_components
+fishd.*

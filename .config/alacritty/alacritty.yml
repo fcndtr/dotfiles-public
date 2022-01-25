@@ -1,0 +1,91 @@
+# Colors (Solarized Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#001B21' # base03
+    foreground: '#839496' # base0
+
+  # Cursor colors
+  cursor:
+    text:   '#002b36' # base03
+    cursor: '#839496' # base0
+
+  # Normal colors
+  normal:
+    black:   '#073642' # base02
+    red:     '#dc322f' # red
+    green:   '#859900' # green
+    yellow:  '#b58900' # yellow
+    blue:    '#268bd2' # blue
+    magenta: '#d33682' # magenta
+    cyan:    '#2aa198' # cyan
+    white:   '#eee8d5' # base2
+
+  # Bright colors
+  bright:
+    black:   '#002b36' # base03
+    red:     '#cb4b16' # orange
+    green:   '#586e75' # base01
+    yellow:  '#657b83' # base00
+    blue:    '#839496' # base0
+    magenta: '#6c71c4' # violet
+    cyan:    '#93a1a1' # base1
+    white:   '#fdf6e3' # base3
+
+background_opacity: 0.85
+
+font:
+  normal:
+    family: "MesloLGS NF"
+    style: Regular
+  bold:
+    family: "MesloLGS NF"
+    style: Bold
+  italic:
+    family: "MesloLGS NF"
+    style: Italic
+  bold_italic:
+    family: "MesloLGS NF"
+    style: Bold Italic
+
+  # Point size
+  size: 12.0
+
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+window:
+  padding:
+    x: 2
+    y: 2
+  dimensions:
+    columns: 100
+    lines: 20
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+
+  # Number of lines the viewport will move for every line scrolled when
+  # scrollback is enabled (history > 0).
+  multiplier: 10
+
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+
+live_config_reload: true
+
+shell:
+  program: /usr/bin/fish
+
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }

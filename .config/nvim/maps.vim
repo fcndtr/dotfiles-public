@@ -1,5 +1,8 @@
 " Description: Keymaps
 
+" Map leader to Comma
+let mapleader = ","
+
 nnoremap <S-C-p> "0p
 " Delete without yank
 nnoremap <leader>d "_d

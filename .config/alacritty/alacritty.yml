@@ -86,6 +86,3 @@ live_config_reload: true
 
 shell:
   program: /usr/bin/fish
-
-key_bindings:
-  - { key: N, mods: Control, action: SpawnNewInstance }

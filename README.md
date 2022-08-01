@@ -1,6 +1,7 @@
 # My dotfiles
 
-![cover](./images/cover.png)
+![nvim screenshot](./images/screenshot-1.png)
+![nvim screenshot](./images/screenshot-2.png)
 
 **Warning**: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
@@ -11,10 +12,11 @@
 - tmux config
 - git config
 - fish config
+- PowerShell config
 
 ## Vim setup
 
-Requires Neovim (>= 0.6)
+Requires Neovim (>= 0.7)
 
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
 - [coc.nvim](https://github.com/neoclide/coc.nvim) - Intellisense
@@ -33,6 +35,17 @@ Requires Neovim (>= 0.6)
 - [Exa](https://the.exa.website/) - `ls` replacement
 - [ghq](https://github.com/x-motemen/ghq) - Local Git repository organizer
 - [peco](https://github.com/peco/peco) - Interactive filtering
+
+## PowerShell setup (Windows)
+
+- [Scoop](https://scoop.sh/) - A command-line installer
+- [One Half Dark](https://github.com/sonph/onehalf) - PowerShell theme. Acrylic transparency at 25%.
+- [Git for Windows](https://gitforwindows.org/)
+- [Oh My Posh](https://ohmyposh.dev/) - Prompt theme engine
+- [Terminal Icons](https://github.com/devblackops/Terminal-Icons) - Folder and file icons
+- [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/) - Cmdlets for customizing the editing environment, used for autocompletion
+- [z](https://www.powershellgallery.com/packages/z) - Directory jumper
+- [PSFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder
 
 ## How to install
 
@@ -56,5 +69,5 @@ stow .tmux.conf # Just my tmux config
 
 ## That's it
 
-Well, that's it, we're done.
+We're done!
 

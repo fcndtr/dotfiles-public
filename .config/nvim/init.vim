@@ -24,9 +24,7 @@ set laststatus=2
 set scrolloff=10
 set expandtab
 "let loaded_matchparen = 1
-set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
-set mouse=a
 
 " incremental substitution (neovim)
 if has('nvim')
@@ -120,6 +118,9 @@ if has("unix")
   if s:uname == "Darwin\n"
     runtime ./macos.vim
   endif
+endif
+if has('win32')
+  runtime ./windows.vim
 endif
 
 runtime ./maps.vim

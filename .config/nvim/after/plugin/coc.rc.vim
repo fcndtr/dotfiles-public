@@ -12,7 +12,7 @@ set updatetime=300
 set shortmess+=c
 
 " Always show signcolumns
-  set signcolumn=yes
+set signcolumn=no
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by

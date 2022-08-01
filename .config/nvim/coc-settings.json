@@ -1,9 +1,4 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [
-    "css",
-    "javascript",
-    "typescript",
-    "html",
-    "json"
-  ]
+  "coc.preferences.formatOnSaveFiletypes": ["css", "javascript", "typescript", "html", "json"],
+  "prettier.printWidth": 120
 }

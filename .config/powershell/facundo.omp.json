@@ -7,7 +7,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#AE8875",
+          "background": "#FFFFFF",
           "foreground": "#000000",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
@@ -61,13 +61,13 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#3C873A",
-          "foreground": "#303030",
+          "background": "#303030",
+          "foreground": "#3C873A",
           "leading_diamond": " \ue0b6",
           "properties": {
-            "fetch_package_manager": false,
+            "fetch_package_manager": true,
             "npm_icon": " <#cc3a3a>\ue5fa</> ",
-            "yarn_icon": " <#348cba>\uf61a</>"
+            "yarn_icon": " <#348cba>\ue6a7</>"
           },
           "style": "diamond",
           "template": "\ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
@@ -80,7 +80,7 @@
           "invert_powerline": true,
           "leading_diamond": " \ue0b6",
           "style": "diamond",
-          "template": " \uf5ef {{ .CurrentDate | date .Format }} ",
+          "template": " \ue641 {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b4",
           "type": "time"
         }
